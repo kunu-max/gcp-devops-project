@@ -1,1 +1,1 @@
-# THis is public repo for GCP devops 
+# This is a sample python app build on docker image 
