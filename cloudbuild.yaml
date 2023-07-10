@@ -10,7 +10,7 @@ steps:
    args: 
    - run
    - --filename=gke.yaml
-   - --image=gcr.io/$PROJECT_ID/gcp-devops
+   - --image=gcr.io/noble-truck-388707/gcp-devops:latest
    - --location=us-central1-c
    - --cluster=cluster-1
    - --namespace=gcp-devops
