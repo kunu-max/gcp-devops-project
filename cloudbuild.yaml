@@ -6,13 +6,13 @@ steps:
  - name: "gcr.io/cloud-builders/docker"
    args: ["push","gcr.io/$PROJECT_ID/gcp-devops-gke"]
  # deploy container
- - name: "gcr.io/cloud-builders/gcp-devops-gke"
-   args: 
-   - run
-   - --filename=gke.yaml
-   - --image=gcr.io/$PROJECT_ID/gcp-devops-gke
-   - --location=us-central1-c
-   - --cluster=cluster-1
-   - --namespace=gcp-devops
+# - name: "gcr.io/cloud-builders/gcp-devops"
+#   args: 
+#   - run
+#   - --filename=gke.yaml
+#   - --image=gcr.io/$PROJECT_ID/gcp-devops-gke
+#   - --location=us-central1-c
+#   - --cluster=cluster-1
+#   - --namespace=gcp-devops
   
     
