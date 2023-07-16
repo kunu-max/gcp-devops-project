@@ -9,8 +9,8 @@ spec:
         app: gcp
      spec:
       containers:
-      - name: gke-deploy
-        image: gcr.io/$PROJECT_ID/gcp-devops
+      - name: gcp-devops-gke
+        image: gcr.io/$PROJECT_ID/gcp-devops-gke:latest
         ports:
         - containerPort: 5000
         env:
