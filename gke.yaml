@@ -14,7 +14,7 @@ spec:
     spec:
       containers: 
       - name: gcp-devops-gke
-        image: nginx:latest
+        image: gcr.io/cbd-test/test-app:latest
         ports:
         - containerPort: 5000
         env:
